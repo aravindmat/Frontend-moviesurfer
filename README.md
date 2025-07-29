@@ -1,12 +1,35 @@
-# React + Vite
+# Frontend project - MovieSurfer
+**MovieSurfer** is a movie search application built using React js that allows users to search for movie by title and view relevant movie details. This app integrates with TMDB API to    fetch real time movie   data including titles, posters, release-date and rating.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+  1. Real-time movie search using TMDb API
+  2. Display movie posters, titles, release dates, and overviews
+  3. Responsive and modern UI with clean design
+  4. Built with React functional components and hooks
 
-Currently, two official plugins are available:
+# Tech Stack
+  Frontend: React JS
+  API: The movie database(TMDb) API
+  HTTP client: Native fetch API
+  Build tool: Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# How to Run
+  1. Clone the repo
+     git clone  https://github.com/aravindmat/Frontend-moviesurfer.git
+     
+  2. Navigate to project directory
+     cd Frontend-moviesurfer
+     
+  3. Install dependencies
+     npm install
+     
+  4. Start the development server
+     npm run dev
 
-## Expanding the ESLint configuration
+  5. Open in browser
+     Visit http://localhost:5173 to view the app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
